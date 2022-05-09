@@ -1,0 +1,9 @@
+configuration:
+    instrument_mode: SOL
+    observation_class: SCIENCE
+    observation_type: OBJECTS
+    observation_mode: always_success
+    image_path: /scidb/framedb/MIRADAS/2021-02-03/create_rect_transform/2021-02-03_15_47_18/remove_detector_signatures/2021-02-03_15_47_23/raw/
+    number_images: 2
+    number_petitions: 100
+    petition_period: 2
