@@ -280,7 +280,7 @@ class Utilities:
         files = os.listdir(folder)
         for image in files:
             # check only text files
-            if image.endswith('.fits') and "raw" in image:
+            if image.endswith('.fits'):
                 images.append(os.path.join(folder, image))
 
             if len(images) == num_images:
